@@ -1,6 +1,9 @@
 <template>
-    <div class="flex flex-col w-full gap-16 bg-[#1e1e1e]">
-      <CharctersListing/>
-      <EpisodeListing/>
+    <div class="flex flex-col w-full gap-16 ">
+      <HomeHeroHeader/>
+      <PageContainer>
+        <CharctersListing/>
+        <EpisodeListing/>
+      </PageContainer>
     </div>
 </template>
